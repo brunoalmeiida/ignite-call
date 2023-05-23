@@ -9,7 +9,7 @@ export const Container = styled('div', {
 export const UserHeader = styled('div', {
   display: 'flex',
   flexDirection: 'column',
-  alignContent: 'center',
+  alignItems: 'center',
 
   [`> ${Heading}`]: {
     lineHeight: '$base',
